@@ -4,19 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food delivery app</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav id="navbar">
       <div id="logo">
-        <img src="./img/logo.jpg" alt="logo" />
+        <img src="./img/logo.png" alt="logo" />
       </div>
       <ul>
         <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#services-container">Services</a></li>
         <li class="item"><a href="#">About us</a></li>
         <li class="item"><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <section id="home">
+      <h1 class="h-primary">Welcome to my online meal</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+        consequuntur, ducimus dicta nulla eligendi quidem totam cupiditate.
+      </p>
+
+      <button class="btn">Order now</button>
+    </section>
+    <section id="services-container">
+      <h2 class="h-primary center">Our Services</h2>
+      <div id="services">
+        <div class="box">
+          <img src="./img/1.png" alt="" />
+          <h2 class="h-secondary center">Food Ordering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ea,
+            quidem quaerat voluptate totam hic non similique est natus labore
+            iste omnis sed quo aperiam fugiat, fuga nulla rerum provident
+            possimus eaque? Tenetur, sed?
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/2.png" alt="" />
+          <h2 class="h-secondary center">Food Catering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ea,
+            quidem quaerat voluptate totam hic non similique est natus labore
+            iste omnis sed quo aperiam fugiat, fuga nulla rerum provident
+            possimus eaque? Tenetur, sed?
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/3.png" alt="" />
+          <h2 class="h-secondary center">Bulk Ordering</h2>
+          <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ea,
+            quidem quaerat voluptate totam hic non similique est natus labore
+            iste omnis sed quo aperiam fugiat, fuga nulla rerum provident
+            possimus eaque? Tenetur, sed?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h2 class="h-primary center">Our Clients</h2>
+      <div class="clients">
+        <div class="client-item">
+          <img src="./img/logo1.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="./img/logo2.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="./img/logo3.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="./img/logo4.png" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
