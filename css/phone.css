@@ -51,6 +51,10 @@ body {
 #contact-box {
   width: 80%;
 }
+#contact-box input,
+#contact-box textarea {
+  width: 170%;
+}
 /* Footer*/
 /* Utility */
 .h-primary {
