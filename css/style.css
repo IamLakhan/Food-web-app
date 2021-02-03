@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* Logo */
 #logo {
   margin: 12px 6px;
@@ -18,9 +21,10 @@
 #navbar {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: sticky;
   top: 0px;
   font-family: "Lato", sans-serif;
+  z-index: 2;
 }
 
 #navbar ul {
@@ -117,7 +121,7 @@
 
 /* Client section */
 #client-section {
-  height: 344px;
+  /* height: 344px; */
   position: relative;
   font-family: "Lato", sans-serif;
 }
@@ -136,7 +140,8 @@
   align-items: center;
 }
 .clients img {
-  height: 120px;
+  width: 100px;
+  height: auto;
 }
 .client-item {
   padding: 34px;
